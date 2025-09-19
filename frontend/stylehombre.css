@@ -1,0 +1,110 @@
+/* HEADER */
+   body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #222;
+    }
+
+    header {
+      background-color: #3b5080;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .banner{
+      background: url(banner1.jpg)center/cover no-repeat;
+      height: 350px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      position: relative;
+      padding: 0 1rem;
+    }
+    .banner-texto h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      text-shadow: 2px 2px 4px #000;
+    }
+    header img {
+      height: 100px;
+      vertical-align: middle;
+    }
+    .items{
+      background-color:#3b5080;
+    }
+    nav {
+      background-color: #d1b454;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    nav a {
+      font-size: 15px;
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color:#3b5080;
+      text-decoration:underline;
+    }
+
+ /*ITEMS*/
+
+.products {
+      display: block;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      
+    }
+
+    .product {
+      background: white;
+      width: 50%;
+      padding: 1rem;
+      border: 2px solid #0044aa;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .product:hover {
+      transform: scale(1.03);
+    }
+
+    .product img {
+      width: 100%;
+      max-height: 160px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    .product h3 {
+      margin: 10px 0 5px;
+      color: #003366;
+    }
+
+    .product p {
+      color: #ffcc00;
+      font-weight: bold;
+    }
+
+    /* FOOTER*/
+        footer {
+      background-color: #d1b454;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+   
+    footer a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }

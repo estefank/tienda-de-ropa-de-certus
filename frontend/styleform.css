@@ -1,0 +1,186 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3b5080;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+header {
+    background-color: white;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .banner{
+    background: url(banner1.jpg)center/cover no-repeat;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 0 1rem;
+  }
+  .banner-texto h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px #000;
+  }
+  header img {
+    height: 100px;
+    vertical-align: middle;
+  }
+  .items{
+    background-color:#3b5080;
+  }
+  nav {
+    background-color: #d1b454;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  nav a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    color:#3b5080;
+    text-decoration:underline;
+  }
+
+
+    .container {
+      min-height: calc(100vh - 60px); /* resta el alto del nav */
+      display: flex;
+      justify-content: center; /* centra horizontal */
+      align-items: center;     /* centra vertical */
+      padding: 20px;
+    }
+
+    .form-side {
+     text-align: center;
+    }
+h2 {
+    margin-bottom: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    
+}
+
+form {
+    width: 50%;
+    text-align: left;
+    position: center;
+    justify-content: center;
+
+    justify-content: left;
+    
+}
+
+.form-group {
+    margin-bottom: 20px;
+
+    flex-direction: column; 
+    width: 100%;
+  
+}
+
+
+label {
+    width: 100%;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: white(0, 0, 0);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select,
+textarea,
+input[type="file"] {
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    color: black;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus,
+input[type="file"]:focus {
+    background-color: white;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 0px;
+}
+
+.form-group.radio-group,
+.form-group.checkbox-group {
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.form-group.radio-group label,
+.form-group.checkbox-group label {
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #d1b454;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+   
+}
+
+button:hover {
+    background-color: #f5c62e
+   
+}
+/*footer*/
+footer {
+    background-color: #d1b454;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+ 
+  footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
